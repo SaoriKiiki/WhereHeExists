@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+
+#_navbar partial
+#<a class="btn" href="../../components/#navbar" role="button">View navbar docs</a>
+
+#application html.erb nav
+#<div class="active"><a href="/ideas"></a></div>
