@@ -12,3 +12,11 @@
 
 #application html.erb nav
 #<div class="active"><a href="/ideas"></a></div>
+
+# campaigns = Campaign.create([{amount_needed:1}, {amount_raised:0}, {argument:'Text goes here'}])
+
+#<% @campaigns.each do |campaigns| %>
+ #     <%= link_to(campaigns.title, "/campaigns/#{campaigns.id}") %>
+  #    <%= button_to "actualizar", campaigns, :method => :update %>
+   #   <%= button_to "editar", campaigns, :method => :edit %>
+    #  <%= button_to "eliminar", campaigns, :method => :destroy %>

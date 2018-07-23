@@ -1,10 +1,5 @@
-<h1>Hi.</h1>
+<h1>Where He Exists</h1>
 
 <p align="center">Campaigns</p>
 
-  <% @campaigns.each do |campaigns| %>
-      <%= link_to(campaigns.title, "/campaigns/#{campaigns.id}") %>
-      <%= button_to "actualizar", campaigns, :method => :update %>
-      <%= button_to "editar", campaigns, :method => :edit %>
-      <%= button_to "eliminar", campaigns, :method => :destroy %>
-  <% end %>
+<%= render "/navbar" %>
