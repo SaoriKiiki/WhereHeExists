@@ -21,7 +21,8 @@
   </head>
 
   <body>
-  
+<%= render "/navbar_top" %>
+
     <% if notice %>
       <p class="alert alert-success"><%= notice %></p>
     <% end %>
@@ -32,3 +33,5 @@
     <%= yield %>
   </body>
 </html>
+
+<%= render "/navbar_foot" %>

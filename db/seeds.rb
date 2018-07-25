@@ -20,3 +20,11 @@
   #    <%= button_to "actualizar", campaigns, :method => :update %>
    #   <%= button_to "editar", campaigns, :method => :edit %>
     #  <%= button_to "eliminar", campaigns, :method => :destroy %>
+    
+#nav_bar
+    #<div class="my_static_nav_bar" align="center">
+     # <p></p>
+      # </div>
+       #<%= render "/navbar" %>
+        #<nav class="navbar navbar-light" style="background-color: #e3f2fd;"></nav>
+         #<div class="my_static_nav_bar my_in_btween" align="right">
