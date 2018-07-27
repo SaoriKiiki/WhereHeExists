@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta charset="utf-8">
 
-    <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
     
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -21,17 +21,16 @@
   </head>
 
   <body>
-<%= render "/navbar_top" %>
-
-    <% if notice %>
-      <p class="alert alert-success"><%= notice %></p>
-    <% end %>
-    <% if alert %>
-      <p class="alert alert-danger"><%= alert %></p>
-    <% end %>
+  <%= render "/navbar_top" %>
+        <% if notice %>
+        <p class="alert alert-success"><%= notice %></p>
+        <% end %>
+        <% if alert %>
+        <p class="alert alert-danger"><%= alert %></p>
+        <% end %>
+  <%= render "/navbar_foot" %>
 
     <%= yield %>
   </body>
 </html>
 
-<%= render "/navbar_foot" %>

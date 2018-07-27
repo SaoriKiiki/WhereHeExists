@@ -1,10 +1,7 @@
-body {
+body.my_body {
     padding: 55px 10px 0px 0px;
-}
-
-.nunito {
-    font-family: 'Nunito';
-    font-size: 30px;
+    font-family: 'Raleway';
+    font-size: 14px;
 }
 
 h1 {
@@ -18,12 +15,6 @@ h1.display-4 {
     color: rgba(100,100,100,100);
     font-family: 'Nunito';
     font-size: 40px;
-}
-
-p.lead {
-    color: rgba(100,100,100,100);
-    font-family: 'Nunito';
-    font-size: 20px;
 }
 
 div.my_in_btween {
